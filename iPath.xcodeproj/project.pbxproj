@@ -64,7 +64,7 @@
 		074A60AF165AAE8D0084C45D /* JSObjectionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6075165AAC050084C45D /* JSObjectionModule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		074A60B1165AAE8D0084C45D /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6079165AAC050084C45D /* JSObjectionUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		074A60B2165AAF000084C45D /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6077165AAC050084C45D /* JSObjectionProviderEntry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		074A60B3165AAF620084C45D /* PPObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A609D165AAD060084C45D /* PPObjectionInjector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		074A60B3165AAF620084C45D /* PPObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A609D165AAD060084C45D /* PPObjectionInjector.m */; };
 		074A60BA165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
 		074A60BB165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
 		074A60C4165AB3D10084C45D /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60BE165AB3D10084C45D /* GenericLocationBasedWorker.m */; };
