@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ApplicationController.h"
-
 @class PageContentViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -17,6 +15,6 @@
 @property (strong, nonatomic)IBOutlet UIWindow *window;
 @property (strong, nonatomic)IBOutlet PageContentViewController *pageContentViewController;
 @property (strong, nonatomic) NSMutableDictionary *tracks ;
-@property (strong, nonatomic) ApplicationController *applicationController ;
+
 
 @end

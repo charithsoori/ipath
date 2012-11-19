@@ -10,7 +10,6 @@
 #import "PageContentViewController.h"
 #import "Constants.h"
 #import "PPObjectionInjector.h"
-#import "ApplicationController.h"
 #import "LocationService.h"
 #import "GenericLocationBasedWorker.h"
 #import "POIFinderWorker.h"
@@ -30,9 +29,6 @@
 {
     PPObjectionInjector *injector = [self initializeGlobalDI];
     [self registerGlobalDI:injector];
-    
-    self.applicationController = [injector getObject:[ApplicationController class]];
-    [self.applicationController initialize];
     
     [self checkAndCreateDatabase];
     
@@ -55,7 +51,6 @@
 }
 
 - (void) registerGlobalDI : (PPObjectionInjector *)injector {
-    [injector registerClass:[ApplicationController class] lifeCycle:JSObjectionInstantiationRuleSingleton];
     [injector registerClass:[LocationService class] lifeCycle:JSObjectionInstantiationRuleSingleton];
     [injector registerClass:[GenericLocationBasedWorker class] lifeCycle:JSObjectionInstantiationRuleNormal];
     [injector registerClass:[POIFinderWorker class] lifeCycle:JSObjectionInstantiationRuleNormal];

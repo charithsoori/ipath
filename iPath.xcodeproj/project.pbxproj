@@ -108,7 +108,6 @@
 		21A2EB1E1656521A003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
 		21A2EB2016565324003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
 		21A2EB23165654E2003BB4CA /* DBWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB22165654E2003BB4CA /* DBWrapperTests.m */; };
-		21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */; };
 		21D824B91653CA9100277859 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824B81653CA9100277859 /* Constants.m */; };
 		21D824C61654A88700277859 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824BC1654A88700277859 /* FMDatabase.m */; };
 		21D824C71654A88700277859 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824BE1654A88700277859 /* FMDatabaseAdditions.m */; };
@@ -238,8 +237,6 @@
 		21A2EB1D1656521A003BB4CA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		21A2EB21165654E2003BB4CA /* DBWrapperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWrapperTests.h; sourceTree = "<group>"; };
 		21A2EB22165654E2003BB4CA /* DBWrapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWrapperTests.m; sourceTree = "<group>"; };
-		21B1EE30165A1D9E000EBDA5 /* ApplicationControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationControllerTests.h; sourceTree = "<group>"; };
-		21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationControllerTests.m; sourceTree = "<group>"; };
 		21D824B71653CA9100277859 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		21D824B81653CA9100277859 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		21D824BB1654A88700277859 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -432,8 +429,6 @@
 		2156D3BC163F8AA200786EBE /* iPathTests */ = {
 			isa = PBXGroup;
 			children = (
-				21B1EE30165A1D9E000EBDA5 /* ApplicationControllerTests.h */,
-				21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */,
 				21A2EB21165654E2003BB4CA /* DBWrapperTests.h */,
 				21A2EB22165654E2003BB4CA /* DBWrapperTests.m */,
 				2156D3BD163F8AA200786EBE /* Supporting Files */,
@@ -779,7 +774,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A2EB23165654E2003BB4CA /* DBWrapperTests.m in Sources */,
-				21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */,
 				074A605E165AA6FD0084C45D /* ValidationHelper.m in Sources */,
 				074A607E165AAC050084C45D /* JSObjectFactory.m in Sources */,
 				074A6080165AAC050084C45D /* JSObjection.m in Sources */,
