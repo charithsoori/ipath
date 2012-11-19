@@ -69,6 +69,8 @@
 		074A60B1165AAE8D0084C45D /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6079165AAC050084C45D /* JSObjectionUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		074A60B2165AAF000084C45D /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6077165AAC050084C45D /* JSObjectionProviderEntry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		074A60B3165AAF620084C45D /* PPObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A609D165AAD060084C45D /* PPObjectionInjector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		074A60BA165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
+		074A60BB165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
 		2106FF5C1642952700418A74 /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106FF5B1642952700418A74 /* recordButton.png */; };
 		21286ABD1652065E000840C4 /* MoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21286ABC1652065E000840C4 /* MoreInfo.m */; };
 		214CE7A116423B3F00FC3E60 /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CE7A016423B3F00FC3E60 /* TrackDetail.m */; };
@@ -97,7 +99,6 @@
 		21A2EB5916566335003BB4CA /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */; };
 		21A2EB5A16566335003BB4CA /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */; };
 		21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */; };
-		21D824B51653C99400277859 /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824B41653C99400277859 /* DBWrapper.m */; };
 		21D824B91653CA9100277859 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824B81653CA9100277859 /* Constants.m */; };
 		21D824C61654A88700277859 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824BC1654A88700277859 /* FMDatabase.m */; };
 		21D824C71654A88700277859 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824BE1654A88700277859 /* FMDatabaseAdditions.m */; };
@@ -179,6 +180,8 @@
 		074A607C165AAC050084C45D /* Objection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Objection.h; path = DependencyInjection/Objection.h; sourceTree = "<group>"; };
 		074A609C165AAD060084C45D /* PPObjectionInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPObjectionInjector.h; path = DependencyInjection/PPObjectionInjector.h; sourceTree = "<group>"; };
 		074A609D165AAD060084C45D /* PPObjectionInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPObjectionInjector.m; path = DependencyInjection/PPObjectionInjector.m; sourceTree = "<group>"; };
+		074A60B8165AB35D0084C45D /* DBWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBWrapper.h; path = DB/DBWrapper.h; sourceTree = "<group>"; };
+		074A60B9165AB35D0084C45D /* DBWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBWrapper.m; path = DB/DBWrapper.m; sourceTree = "<group>"; };
 		2106FF5B1642952700418A74 /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
 		21286ABB1652065E000840C4 /* MoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInfo.h; sourceTree = "<group>"; };
 		21286ABC1652065E000840C4 /* MoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInfo.m; sourceTree = "<group>"; };
@@ -225,8 +228,6 @@
 		21A2EB5B165663CB003BB4CA /* GenericLocationBasedWorkerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericLocationBasedWorkerDelegate.h; sourceTree = "<group>"; };
 		21B1EE30165A1D9E000EBDA5 /* ApplicationControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationControllerTests.h; sourceTree = "<group>"; };
 		21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationControllerTests.m; sourceTree = "<group>"; };
-		21D824B31653C99400277859 /* DBWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWrapper.h; sourceTree = "<group>"; };
-		21D824B41653C99400277859 /* DBWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWrapper.m; sourceTree = "<group>"; };
 		21D824B71653CA9100277859 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		21D824B81653CA9100277859 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		21D824BB1654A88700277859 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -340,9 +341,9 @@
 		05E3ECC416563ED500AFA70D /* DB */ = {
 			isa = PBXGroup;
 			children = (
+				074A60B8165AB35D0084C45D /* DBWrapper.h */,
+				074A60B9165AB35D0084C45D /* DBWrapper.m */,
 				05E3ECD41656473D00AFA70D /* iPath.sqlite */,
-				21D824B31653C99400277859 /* DBWrapper.h */,
-				21D824B41653C99400277859 /* DBWrapper.m */,
 			);
 			name = DB;
 			sourceTree = "<group>";
@@ -749,7 +750,6 @@
 				214CE7A116423B3F00FC3E60 /* TrackDetail.m in Sources */,
 				059D3C3C1650D352006C459E /* PointObject.m in Sources */,
 				21286ABD1652065E000840C4 /* MoreInfo.m in Sources */,
-				21D824B51653C99400277859 /* DBWrapper.m in Sources */,
 				21D824B91653CA9100277859 /* Constants.m in Sources */,
 				21D824C61654A88700277859 /* FMDatabase.m in Sources */,
 				21D824C71654A88700277859 /* FMDatabaseAdditions.m in Sources */,
@@ -766,6 +766,7 @@
 				05E3ECCA16563F8D00AFA70D /* CrumbPathView.m in Sources */,
 				21A2EB5916566335003BB4CA /* GenericLocationBasedWorker.m in Sources */,
 				074A608F165AAC050084C45D /* NSObject+Objection.m in Sources */,
+				074A60BA165AB35D0084C45D /* DBWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,6 +790,7 @@
 				074A608E165AAC050084C45D /* JSObjectionUtils.m in Sources */,
 				074A6090165AAC050084C45D /* NSObject+Objection.m in Sources */,
 				074A609F165AAD060084C45D /* PPObjectionInjector.m in Sources */,
+				074A60BB165AB35D0084C45D /* DBWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
