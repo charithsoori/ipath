@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059ACEAE1655EFB200D83737 /* POIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACEAD1655EFB200D83737 /* POIObject.m */; };
-		059ACEB11655EFC700D83737 /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACEB01655EFC700D83737 /* Path.m */; };
-		059ACEB51655F4E600D83737 /* POIFinderWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 059ACEB41655F4E600D83737 /* POIFinderWorker.m */; };
-		059D3C3C1650D352006C459E /* PointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D3C3B1650D352006C459E /* PointObject.m */; };
 		05A2EAD41653697600BC9149 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2EAD31653697600BC9149 /* libsqlite3.0.dylib */; };
 		05E3ECB2165626F500AFA70D /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E3ECB1165626F500AFA70D /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05E3ECC916563F8D00AFA70D /* CrumbPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E3ECC616563F8D00AFA70D /* CrumbPath.m */; };
@@ -71,9 +67,27 @@
 		074A60B3165AAF620084C45D /* PPObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A609D165AAD060084C45D /* PPObjectionInjector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		074A60BA165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
 		074A60BB165AB35D0084C45D /* DBWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60B9165AB35D0084C45D /* DBWrapper.m */; };
+		074A60C4165AB3D10084C45D /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60BE165AB3D10084C45D /* GenericLocationBasedWorker.m */; };
+		074A60C5165AB3D10084C45D /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60BE165AB3D10084C45D /* GenericLocationBasedWorker.m */; };
+		074A60C6165AB3D10084C45D /* POIFinderWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60C1165AB3D10084C45D /* POIFinderWorker.m */; };
+		074A60C7165AB3D10084C45D /* POIFinderWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60C1165AB3D10084C45D /* POIFinderWorker.m */; };
+		074A60C8165AB3D10084C45D /* TrackWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60C3165AB3D10084C45D /* TrackWorker.m */; };
+		074A60C9165AB3D10084C45D /* TrackWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60C3165AB3D10084C45D /* TrackWorker.m */; };
+		074A60CE165AB43D0084C45D /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60CC165AB43D0084C45D /* LocationService.m */; };
+		074A60CF165AB43D0084C45D /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60CC165AB43D0084C45D /* LocationService.m */; };
+		074A60DC165AB4D30084C45D /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D1165AB4D20084C45D /* MapViewAnnotation.m */; };
+		074A60DD165AB4D30084C45D /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D1165AB4D20084C45D /* MapViewAnnotation.m */; };
+		074A60DE165AB4D30084C45D /* MoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D3165AB4D30084C45D /* MoreInfo.m */; };
+		074A60DF165AB4D30084C45D /* MoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D3165AB4D30084C45D /* MoreInfo.m */; };
+		074A60E0165AB4D30084C45D /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D5165AB4D30084C45D /* Path.m */; };
+		074A60E1165AB4D30084C45D /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D5165AB4D30084C45D /* Path.m */; };
+		074A60E2165AB4D30084C45D /* PointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D7165AB4D30084C45D /* PointObject.m */; };
+		074A60E3165AB4D30084C45D /* PointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D7165AB4D30084C45D /* PointObject.m */; };
+		074A60E4165AB4D30084C45D /* POIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D9165AB4D30084C45D /* POIObject.m */; };
+		074A60E5165AB4D30084C45D /* POIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D9165AB4D30084C45D /* POIObject.m */; };
+		074A60E6165AB4D30084C45D /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60DB165AB4D30084C45D /* TrackDetail.m */; };
+		074A60E7165AB4D30084C45D /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60DB165AB4D30084C45D /* TrackDetail.m */; };
 		2106FF5C1642952700418A74 /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106FF5B1642952700418A74 /* recordButton.png */; };
-		21286ABD1652065E000840C4 /* MoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21286ABC1652065E000840C4 /* MoreInfo.m */; };
-		214CE7A116423B3F00FC3E60 /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CE7A016423B3F00FC3E60 /* TrackDetail.m */; };
 		214CE7A416423B7800FC3E60 /* Map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 214CE7A316423B7800FC3E60 /* Map-icon.png */; };
 		2156D393163F8AA100786EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D392163F8AA100786EBE /* UIKit.framework */; };
 		2156D395163F8AA100786EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D394163F8AA100786EBE /* Foundation.framework */; };
@@ -92,12 +106,9 @@
 		2156D41B163FAEEC00786EBE /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2156D419163FAEEC00786EBE /* MapDetailViewController.m */; };
 		2156D41C163FAEEC00786EBE /* MapDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2156D41A163FAEEC00786EBE /* MapDetailViewController.xib */; };
 		2156D429163FB57600786EBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D428163FB57600786EBE /* MapKit.framework */; };
-		21A2EB031656077B003BB4CA /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB021656077B003BB4CA /* MapViewAnnotation.m */; };
 		21A2EB1E1656521A003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
 		21A2EB2016565324003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
 		21A2EB23165654E2003BB4CA /* DBWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB22165654E2003BB4CA /* DBWrapperTests.m */; };
-		21A2EB5916566335003BB4CA /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */; };
-		21A2EB5A16566335003BB4CA /* GenericLocationBasedWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */; };
 		21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */; };
 		21D824B91653CA9100277859 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824B81653CA9100277859 /* Constants.m */; };
 		21D824C61654A88700277859 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824BC1654A88700277859 /* FMDatabase.m */; };
@@ -105,11 +116,9 @@
 		21D824C81654A88700277859 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824C01654A88700277859 /* FMDatabasePool.m */; };
 		21D824C91654A88700277859 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824C21654A88700277859 /* FMDatabaseQueue.m */; };
 		21D824CB1654A88700277859 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824C51654A88700277859 /* FMResultSet.m */; };
-		21D824D416551BEE00277859 /* TrackWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D824D316551BEE00277859 /* TrackWorker.m */; };
 		21D824E1165539EF00277859 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D824E0165539ED00277859 /* QuartzCore.framework */; };
 		21FCACA6164109D600201DA4 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FCACA5164109D600201DA4 /* location.png */; };
 		21FCACA916410C0400201DA4 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FCACA816410C0400201DA4 /* record.png */; };
-		21FCACAC1641123400201DA4 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCACAB1641123400201DA4 /* LocationService.m */; };
 		21FCACB01641271800201DA4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FCACAF1641271800201DA4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,14 +133,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059ACEAD1655EFB200D83737 /* POIObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIObject.m; sourceTree = "<group>"; };
-		059ACEAF1655EFBB00D83737 /* POIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIObject.h; sourceTree = "<group>"; };
-		059ACEB01655EFC700D83737 /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path.m; sourceTree = "<group>"; };
-		059ACEB21655EFCE00D83737 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
-		059ACEB31655F4E600D83737 /* POIFinderWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIFinderWorker.h; sourceTree = "<group>"; };
-		059ACEB41655F4E600D83737 /* POIFinderWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIFinderWorker.m; sourceTree = "<group>"; };
-		059D3C3A1650D352006C459E /* PointObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointObject.h; sourceTree = "<group>"; };
-		059D3C3B1650D352006C459E /* PointObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointObject.m; sourceTree = "<group>"; };
 		05A2EAD31653697600BC9149 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		05E3ECB0165626F500AFA70D /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
 		05E3ECB1165626F500AFA70D /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
@@ -182,11 +183,30 @@
 		074A609D165AAD060084C45D /* PPObjectionInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPObjectionInjector.m; path = DependencyInjection/PPObjectionInjector.m; sourceTree = "<group>"; };
 		074A60B8165AB35D0084C45D /* DBWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBWrapper.h; path = DB/DBWrapper.h; sourceTree = "<group>"; };
 		074A60B9165AB35D0084C45D /* DBWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBWrapper.m; path = DB/DBWrapper.m; sourceTree = "<group>"; };
+		074A60BD165AB3D10084C45D /* GenericLocationBasedWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericLocationBasedWorker.h; path = Workers/GenericLocationBasedWorker.h; sourceTree = "<group>"; };
+		074A60BE165AB3D10084C45D /* GenericLocationBasedWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericLocationBasedWorker.m; path = Workers/GenericLocationBasedWorker.m; sourceTree = "<group>"; };
+		074A60BF165AB3D10084C45D /* GenericLocationBasedWorkerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericLocationBasedWorkerDelegate.h; path = Workers/GenericLocationBasedWorkerDelegate.h; sourceTree = "<group>"; };
+		074A60C0165AB3D10084C45D /* POIFinderWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POIFinderWorker.h; path = Workers/POIFinderWorker.h; sourceTree = "<group>"; };
+		074A60C1165AB3D10084C45D /* POIFinderWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POIFinderWorker.m; path = Workers/POIFinderWorker.m; sourceTree = "<group>"; };
+		074A60C2165AB3D10084C45D /* TrackWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackWorker.h; path = Workers/TrackWorker.h; sourceTree = "<group>"; };
+		074A60C3165AB3D10084C45D /* TrackWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackWorker.m; path = Workers/TrackWorker.m; sourceTree = "<group>"; };
+		074A60CA165AB43D0084C45D /* LocationErrorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationErrorDelegate.h; path = Services/LocationErrorDelegate.h; sourceTree = "<group>"; };
+		074A60CB165AB43D0084C45D /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationService.h; path = Services/LocationService.h; sourceTree = "<group>"; };
+		074A60CC165AB43D0084C45D /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationService.m; path = Services/LocationService.m; sourceTree = "<group>"; };
+		074A60CD165AB43D0084C45D /* LocationServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationServiceDelegate.h; path = Services/LocationServiceDelegate.h; sourceTree = "<group>"; };
+		074A60D0165AB4D20084C45D /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewAnnotation.h; path = Models/MapViewAnnotation.h; sourceTree = "<group>"; };
+		074A60D1165AB4D20084C45D /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewAnnotation.m; path = Models/MapViewAnnotation.m; sourceTree = "<group>"; };
+		074A60D2165AB4D20084C45D /* MoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreInfo.h; path = Models/MoreInfo.h; sourceTree = "<group>"; };
+		074A60D3165AB4D30084C45D /* MoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreInfo.m; path = Models/MoreInfo.m; sourceTree = "<group>"; };
+		074A60D4165AB4D30084C45D /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Path.h; path = Models/Path.h; sourceTree = "<group>"; };
+		074A60D5165AB4D30084C45D /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Path.m; path = Models/Path.m; sourceTree = "<group>"; };
+		074A60D6165AB4D30084C45D /* PointObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointObject.h; path = Models/PointObject.h; sourceTree = "<group>"; };
+		074A60D7165AB4D30084C45D /* PointObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointObject.m; path = Models/PointObject.m; sourceTree = "<group>"; };
+		074A60D8165AB4D30084C45D /* POIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POIObject.h; path = Models/POIObject.h; sourceTree = "<group>"; };
+		074A60D9165AB4D30084C45D /* POIObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POIObject.m; path = Models/POIObject.m; sourceTree = "<group>"; };
+		074A60DA165AB4D30084C45D /* TrackDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackDetail.h; path = Models/TrackDetail.h; sourceTree = "<group>"; };
+		074A60DB165AB4D30084C45D /* TrackDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackDetail.m; path = Models/TrackDetail.m; sourceTree = "<group>"; };
 		2106FF5B1642952700418A74 /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
-		21286ABB1652065E000840C4 /* MoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInfo.h; sourceTree = "<group>"; };
-		21286ABC1652065E000840C4 /* MoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInfo.m; sourceTree = "<group>"; };
-		214CE79F16423B3F00FC3E60 /* TrackDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackDetail.h; sourceTree = "<group>"; };
-		214CE7A016423B3F00FC3E60 /* TrackDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackDetail.m; sourceTree = "<group>"; };
 		214CE7A316423B7800FC3E60 /* Map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map-icon.png"; sourceTree = "<group>"; };
 		2156D38E163F8AA100786EBE /* iPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2156D392163F8AA100786EBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -212,8 +232,6 @@
 		2156D419163FAEEC00786EBE /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
 		2156D41A163FAEEC00786EBE /* MapDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapDetailViewController.xib; sourceTree = "<group>"; };
 		2156D428163FB57600786EBE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		21A2EB011656077B003BB4CA /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
-		21A2EB021656077B003BB4CA /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
 		21A2EB171656521A003BB4CA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		21A2EB181656521A003BB4CA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		21A2EB191656521A003BB4CA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
@@ -223,9 +241,6 @@
 		21A2EB1D1656521A003BB4CA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		21A2EB21165654E2003BB4CA /* DBWrapperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWrapperTests.h; sourceTree = "<group>"; };
 		21A2EB22165654E2003BB4CA /* DBWrapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWrapperTests.m; sourceTree = "<group>"; };
-		21A2EB5716566335003BB4CA /* GenericLocationBasedWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericLocationBasedWorker.h; sourceTree = "<group>"; };
-		21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericLocationBasedWorker.m; sourceTree = "<group>"; };
-		21A2EB5B165663CB003BB4CA /* GenericLocationBasedWorkerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericLocationBasedWorkerDelegate.h; sourceTree = "<group>"; };
 		21B1EE30165A1D9E000EBDA5 /* ApplicationControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationControllerTests.h; sourceTree = "<group>"; };
 		21B1EE31165A1D9E000EBDA5 /* ApplicationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationControllerTests.m; sourceTree = "<group>"; };
 		21D824B71653CA9100277859 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -240,16 +255,10 @@
 		21D824C21654A88700277859 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		21D824C41654A88700277859 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		21D824C51654A88700277859 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		21D824D216551BED00277859 /* TrackWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackWorker.h; sourceTree = "<group>"; };
-		21D824D316551BEE00277859 /* TrackWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackWorker.m; sourceTree = "<group>"; };
 		21D824E0165539ED00277859 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		21FCACA5164109D600201DA4 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
 		21FCACA816410C0400201DA4 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
-		21FCACAA1641123400201DA4 /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
-		21FCACAB1641123400201DA4 /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
 		21FCACAF1641271800201DA4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		72DFEFDF165A49A0004337E0 /* LocationServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationServiceDelegate.h; sourceTree = "<group>"; };
-		72DFEFE1165A4EB1004337E0 /* LocationErrorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationErrorDelegate.h; sourceTree = "<group>"; };
 		72DFEFE2165A5949004337E0 /* POIFinderWorkerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIFinderWorkerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,18 +305,18 @@
 		05E3ECC116563E8900AFA70D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				21A2EB011656077B003BB4CA /* MapViewAnnotation.h */,
-				21A2EB021656077B003BB4CA /* MapViewAnnotation.m */,
-				21286ABB1652065E000840C4 /* MoreInfo.h */,
-				21286ABC1652065E000840C4 /* MoreInfo.m */,
-				059D3C3A1650D352006C459E /* PointObject.h */,
-				059D3C3B1650D352006C459E /* PointObject.m */,
-				214CE79F16423B3F00FC3E60 /* TrackDetail.h */,
-				214CE7A016423B3F00FC3E60 /* TrackDetail.m */,
-				059ACEAF1655EFBB00D83737 /* POIObject.h */,
-				059ACEAD1655EFB200D83737 /* POIObject.m */,
-				059ACEB21655EFCE00D83737 /* Path.h */,
-				059ACEB01655EFC700D83737 /* Path.m */,
+				074A60D0165AB4D20084C45D /* MapViewAnnotation.h */,
+				074A60D1165AB4D20084C45D /* MapViewAnnotation.m */,
+				074A60D2165AB4D20084C45D /* MoreInfo.h */,
+				074A60D3165AB4D30084C45D /* MoreInfo.m */,
+				074A60D4165AB4D30084C45D /* Path.h */,
+				074A60D5165AB4D30084C45D /* Path.m */,
+				074A60D6165AB4D30084C45D /* PointObject.h */,
+				074A60D7165AB4D30084C45D /* PointObject.m */,
+				074A60D8165AB4D30084C45D /* POIObject.h */,
+				074A60D9165AB4D30084C45D /* POIObject.m */,
+				074A60DA165AB4D30084C45D /* TrackDetail.h */,
+				074A60DB165AB4D30084C45D /* TrackDetail.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -315,10 +324,10 @@
 		05E3ECC216563EB400AFA70D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				21FCACAA1641123400201DA4 /* LocationService.h */,
-				21FCACAB1641123400201DA4 /* LocationService.m */,
-				72DFEFDF165A49A0004337E0 /* LocationServiceDelegate.h */,
-				72DFEFE1165A4EB1004337E0 /* LocationErrorDelegate.h */,
+				074A60CA165AB43D0084C45D /* LocationErrorDelegate.h */,
+				074A60CB165AB43D0084C45D /* LocationService.h */,
+				074A60CC165AB43D0084C45D /* LocationService.m */,
+				074A60CD165AB43D0084C45D /* LocationServiceDelegate.h */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -326,13 +335,13 @@
 		05E3ECC316563EC500AFA70D /* Workers */ = {
 			isa = PBXGroup;
 			children = (
-				059ACEB31655F4E600D83737 /* POIFinderWorker.h */,
-				059ACEB41655F4E600D83737 /* POIFinderWorker.m */,
-				21D824D216551BED00277859 /* TrackWorker.h */,
-				21D824D316551BEE00277859 /* TrackWorker.m */,
-				21A2EB5716566335003BB4CA /* GenericLocationBasedWorker.h */,
-				21A2EB5816566335003BB4CA /* GenericLocationBasedWorker.m */,
-				21A2EB5B165663CB003BB4CA /* GenericLocationBasedWorkerDelegate.h */,
+				074A60BD165AB3D10084C45D /* GenericLocationBasedWorker.h */,
+				074A60BE165AB3D10084C45D /* GenericLocationBasedWorker.m */,
+				074A60BF165AB3D10084C45D /* GenericLocationBasedWorkerDelegate.h */,
+				074A60C0165AB3D10084C45D /* POIFinderWorker.h */,
+				074A60C1165AB3D10084C45D /* POIFinderWorker.m */,
+				074A60C2165AB3D10084C45D /* TrackWorker.h */,
+				074A60C3165AB3D10084C45D /* TrackWorker.m */,
 				72DFEFE2165A5949004337E0 /* POIFinderWorkerDelegate.h */,
 			);
 			name = Workers;
@@ -746,27 +755,27 @@
 				2156D3D7163F917A00786EBE /* PageContentViewController.m in Sources */,
 				2156D416163FAE8800786EBE /* MapViewController.m in Sources */,
 				2156D41B163FAEEC00786EBE /* MapDetailViewController.m in Sources */,
-				21FCACAC1641123400201DA4 /* LocationService.m in Sources */,
-				214CE7A116423B3F00FC3E60 /* TrackDetail.m in Sources */,
-				059D3C3C1650D352006C459E /* PointObject.m in Sources */,
-				21286ABD1652065E000840C4 /* MoreInfo.m in Sources */,
 				21D824B91653CA9100277859 /* Constants.m in Sources */,
 				21D824C61654A88700277859 /* FMDatabase.m in Sources */,
 				21D824C71654A88700277859 /* FMDatabaseAdditions.m in Sources */,
 				21D824C81654A88700277859 /* FMDatabasePool.m in Sources */,
 				21D824C91654A88700277859 /* FMDatabaseQueue.m in Sources */,
 				21D824CB1654A88700277859 /* FMResultSet.m in Sources */,
-				21D824D416551BEE00277859 /* TrackWorker.m in Sources */,
-				059ACEAE1655EFB200D83737 /* POIObject.m in Sources */,
-				059ACEB11655EFC700D83737 /* Path.m in Sources */,
-				059ACEB51655F4E600D83737 /* POIFinderWorker.m in Sources */,
-				21A2EB031656077B003BB4CA /* MapViewAnnotation.m in Sources */,
 				05E3ECB2165626F500AFA70D /* iToast.m in Sources */,
 				05E3ECC916563F8D00AFA70D /* CrumbPath.m in Sources */,
 				05E3ECCA16563F8D00AFA70D /* CrumbPathView.m in Sources */,
-				21A2EB5916566335003BB4CA /* GenericLocationBasedWorker.m in Sources */,
 				074A608F165AAC050084C45D /* NSObject+Objection.m in Sources */,
 				074A60BA165AB35D0084C45D /* DBWrapper.m in Sources */,
+				074A60C4165AB3D10084C45D /* GenericLocationBasedWorker.m in Sources */,
+				074A60C6165AB3D10084C45D /* POIFinderWorker.m in Sources */,
+				074A60C8165AB3D10084C45D /* TrackWorker.m in Sources */,
+				074A60CE165AB43D0084C45D /* LocationService.m in Sources */,
+				074A60DC165AB4D30084C45D /* MapViewAnnotation.m in Sources */,
+				074A60DE165AB4D30084C45D /* MoreInfo.m in Sources */,
+				074A60E0165AB4D30084C45D /* Path.m in Sources */,
+				074A60E2165AB4D30084C45D /* PointObject.m in Sources */,
+				074A60E4165AB4D30084C45D /* POIObject.m in Sources */,
+				074A60E6165AB4D30084C45D /* TrackDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +784,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A2EB23165654E2003BB4CA /* DBWrapperTests.m in Sources */,
-				21A2EB5A16566335003BB4CA /* GenericLocationBasedWorker.m in Sources */,
 				21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */,
 				074A605D165AA6FD0084C45D /* ApplicationController.m in Sources */,
 				074A605E165AA6FD0084C45D /* ValidationHelper.m in Sources */,
@@ -791,6 +799,16 @@
 				074A6090165AAC050084C45D /* NSObject+Objection.m in Sources */,
 				074A609F165AAD060084C45D /* PPObjectionInjector.m in Sources */,
 				074A60BB165AB35D0084C45D /* DBWrapper.m in Sources */,
+				074A60C5165AB3D10084C45D /* GenericLocationBasedWorker.m in Sources */,
+				074A60C7165AB3D10084C45D /* POIFinderWorker.m in Sources */,
+				074A60C9165AB3D10084C45D /* TrackWorker.m in Sources */,
+				074A60CF165AB43D0084C45D /* LocationService.m in Sources */,
+				074A60DD165AB4D30084C45D /* MapViewAnnotation.m in Sources */,
+				074A60DF165AB4D30084C45D /* MoreInfo.m in Sources */,
+				074A60E1165AB4D30084C45D /* Path.m in Sources */,
+				074A60E3165AB4D30084C45D /* PointObject.m in Sources */,
+				074A60E5165AB4D30084C45D /* POIObject.m in Sources */,
+				074A60E7165AB4D30084C45D /* TrackDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

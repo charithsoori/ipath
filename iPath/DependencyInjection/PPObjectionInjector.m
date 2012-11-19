@@ -93,7 +93,7 @@ static NSMutableDictionary *gObjectionContext;
     free(classes);
 }
 
-id (^(^factoryTemplate) (PPObjectionInjector*, Class)) (void) = ^(PPObjectionInjector *injector, Class cls) {return ^(void){return [injector getObject:cls];};};
+//id (^(^factoryTemplate) (PPObjectionInjector*, Class)) (void) = ^(PPObjectionInjector *injector, Class cls) {return ^(void){return [injector getObject:cls];};};
 
 
 @end
