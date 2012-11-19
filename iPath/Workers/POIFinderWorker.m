@@ -39,30 +39,6 @@ int const POI_SEARCH_RANGE = 1000;
     }
 }
 
-/*
-- (void) locationUpdates:(NSNotification *)notification {
-    
-    if ([[notification object] isKindOfClass:[NSString class]]) {
-        NSString *message = [notification object];
-        UIAlertView *servicesDisabledAlert = [[UIAlertView alloc] initWithTitle:nil message:message
-                                                                       delegate:nil cancelButtonTitle:NSLocalizedString(@"ok", @"")
-                                                              otherButtonTitles:nil];
-        [servicesDisabledAlert show];
-        
-    }else if ([[notification object] isKindOfClass:[CLLocation class]])  {
-        
-        CLLocation *location = (CLLocation *)[notification object];
-        
-        if (location) {
-            NSArray *nearByPOIList = [self getNearByPOIList:location.coordinate];
-            if(nearByPOIList.count !=0){
-                //Notify delegate
-                [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_POI_FOUND object:nearByPOIList];
-            }
-        }
-    }
-}*/
-
 -(NSArray *)getNearByPOIList:(CLLocationCoordinate2D)coord{
     
     MKMapPoint currentPoint = MKMapPointForCoordinate(coord);

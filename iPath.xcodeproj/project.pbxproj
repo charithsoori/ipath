@@ -36,10 +36,7 @@
 		074A6055165AA6050084C45D /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 074A6040165AA6050084C45D /* record.png */; };
 		074A6056165AA6050084C45D /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 074A6041165AA6050084C45D /* recordButton.png */; };
 		074A6057165AA6050084C45D /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 074A6041165AA6050084C45D /* recordButton.png */; };
-		074A605D165AA6FD0084C45D /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A605A165AA6FD0084C45D /* ApplicationController.m */; };
 		074A605E165AA6FD0084C45D /* ValidationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A605C165AA6FD0084C45D /* ValidationHelper.m */; };
-		074A6063165AAB690084C45D /* ApplicationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 074A6059165AA6FD0084C45D /* ApplicationController.h */; };
-		074A6064165AAB690084C45D /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A605A165AA6FD0084C45D /* ApplicationController.m */; };
 		074A6065165AAB690084C45D /* ValidationHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 074A605B165AA6FD0084C45D /* ValidationHelper.h */; };
 		074A6066165AAB690084C45D /* ValidationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A605C165AA6FD0084C45D /* ValidationHelper.m */; };
 		074A607E165AAC050084C45D /* JSObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A6069165AAC050084C45D /* JSObjectFactory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -156,8 +153,6 @@
 		074A603F165AA6050084C45D /* Map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map-icon.png"; sourceTree = "<group>"; };
 		074A6040165AA6050084C45D /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
 		074A6041165AA6050084C45D /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
-		074A6059165AA6FD0084C45D /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationController.h; path = Helpers/ApplicationController.h; sourceTree = "<group>"; };
-		074A605A165AA6FD0084C45D /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationController.m; path = Helpers/ApplicationController.m; sourceTree = "<group>"; };
 		074A605B165AA6FD0084C45D /* ValidationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidationHelper.h; path = Helpers/ValidationHelper.h; sourceTree = "<group>"; };
 		074A605C165AA6FD0084C45D /* ValidationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidationHelper.m; path = Helpers/ValidationHelper.m; sourceTree = "<group>"; };
 		074A6068165AAC050084C45D /* JSObjectFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSObjectFactory.h; path = DependencyInjection/JSObjectFactory.h; sourceTree = "<group>"; };
@@ -540,8 +535,6 @@
 		21A2EB521656611D003BB4CA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				074A6059165AA6FD0084C45D /* ApplicationController.h */,
-				074A605A165AA6FD0084C45D /* ApplicationController.m */,
 				074A605B165AA6FD0084C45D /* ValidationHelper.h */,
 				074A605C165AA6FD0084C45D /* ValidationHelper.m */,
 			);
@@ -750,8 +743,6 @@
 				074A60AF165AAE8D0084C45D /* JSObjectionModule.m in Sources */,
 				074A60B1165AAE8D0084C45D /* JSObjectionUtils.m in Sources */,
 				074A609B165AAC5E0084C45D /* Objection.h in Sources */,
-				074A6063165AAB690084C45D /* ApplicationController.h in Sources */,
-				074A6064165AAB690084C45D /* ApplicationController.m in Sources */,
 				074A6065165AAB690084C45D /* ValidationHelper.h in Sources */,
 				074A6066165AAB690084C45D /* ValidationHelper.m in Sources */,
 				2156D39F163F8AA100786EBE /* main.m in Sources */,
@@ -789,7 +780,6 @@
 			files = (
 				21A2EB23165654E2003BB4CA /* DBWrapperTests.m in Sources */,
 				21B1EE32165A1D9E000EBDA5 /* ApplicationControllerTests.m in Sources */,
-				074A605D165AA6FD0084C45D /* ApplicationController.m in Sources */,
 				074A605E165AA6FD0084C45D /* ValidationHelper.m in Sources */,
 				074A607E165AAC050084C45D /* JSObjectFactory.m in Sources */,
 				074A6080165AAC050084C45D /* JSObjection.m in Sources */,

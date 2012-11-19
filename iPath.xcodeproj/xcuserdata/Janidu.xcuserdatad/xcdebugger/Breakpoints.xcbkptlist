@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "iPath/MapViewController.m"
-         timestampString = "375011073.387417"
+         timestampString = "375046397.658289"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "255"
-         endingLineNumber = "255"
+         startingLineNumber = "252"
+         endingLineNumber = "252"
          landmarkName = "-toggleRecordIndicator"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "iPath/MapViewController.m"
-         timestampString = "375011296.060689"
+         timestampString = "375046397.658289"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "102"
-         endingLineNumber = "102"
+         startingLineNumber = "99"
+         endingLineNumber = "99"
          landmarkName = "-clickSaveTrack:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -40,6 +40,32 @@
          startingLineNumber = "15"
          endingLineNumber = "15"
          landmarkName = "-validateWithTextField::"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "iPath/Workers/POIFinderWorker.m"
+         timestampString = "375046159.294723"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "-newLocationReceived:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "iPath/Workers/POIFinderWorker.m"
+         timestampString = "375046343.813707"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
+         landmarkName = "-newLocationReceived:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

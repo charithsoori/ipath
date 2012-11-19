@@ -3,8 +3,6 @@
 //  iNordecaCore
 //
 //  Created by Janidu Wanigasuriya on 10/9/12.
-//  Copyright (c) 2012 Norge-serien. All rights reserved.
-//
 //  Purpose: A wrapper class to abstract location logic required
 
 #import "LocationService.h"

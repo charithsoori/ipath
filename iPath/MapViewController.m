@@ -41,6 +41,7 @@ objection_requires(@"injector", @"validationHelper", @"dbWrapper", @"poiFinderWo
     [self.poiFinderWorker setPOIList:poiList];
     
     [self.poiFinderWorker startCapturingPois];
+    self.poiFinderWorker.poiFinderWorkerDelegate = self;
 
     [self addPOIAnnotations:poiList];
     isRecording = false;
@@ -67,23 +68,19 @@ objection_requires(@"injector", @"validationHelper", @"dbWrapper", @"poiFinderWo
     }
 }
 
--(void)foundNearByPOI:(NSNotification *)notification{
+- (void) nearbyPOIFound : (NSArray *)nearbyPOIList{
     
-    if ([[notification object] isKindOfClass:[NSArray class]]){
+    for (int i = 0; i < nearbyPOIList.count; i++) {
         
-        NSArray *nearByPOIList = (NSArray *)[notification object];
+        POIObject *poiObj = (POIObject*)[nearbyPOIList objectAtIndex:i];
         
-        for (int i = 0; i < nearByPOIList.count; i++) {
-            
-            POIObject *poiObj = (POIObject*)[nearByPOIList objectAtIndex:i];
-            
-            NSString *message = [NSString stringWithFormat:@"POI %@ with distance %@",
-                                 poiObj.description , poiObj.distanceTocurrentLocation];
-            
-            [self showToastWithMsg:message forDuration:iToastDurationNormal];
-        }
+        NSString *message = [NSString stringWithFormat:@"POI %@ with distance %@",
+                             poiObj.description , poiObj.distanceTocurrentLocation];
+        
+        [self showToastWithMsg:message forDuration:iToastDurationNormal];
     }
 }
+
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
     [self zoomMapToCoordinate:userLocation.coordinate];

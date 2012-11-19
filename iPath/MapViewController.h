@@ -29,7 +29,7 @@
 
 typedef id (^InjectedObjectFactory) ();
 
-@interface MapViewController : UIViewController<LocationErrorDelegate,MKMapViewDelegate,UITextFieldDelegate, GenericLocationBasedWorkerDelegate>{
+@interface MapViewController : UIViewController<POIFinderWorkerDelegate,LocationErrorDelegate,MKMapViewDelegate,UITextFieldDelegate, GenericLocationBasedWorkerDelegate>{
 @private
     BOOL isRecording;
     BOOL isShowingSavedTrack;
