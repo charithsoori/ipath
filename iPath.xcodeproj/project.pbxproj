@@ -87,6 +87,10 @@
 		074A60E5165AB4D30084C45D /* POIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60D9165AB4D30084C45D /* POIObject.m */; };
 		074A60E6165AB4D30084C45D /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60DB165AB4D30084C45D /* TrackDetail.m */; };
 		074A60E7165AB4D30084C45D /* TrackDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A60DB165AB4D30084C45D /* TrackDetail.m */; };
+		074A60EA165AB55A0084C45D /* MapDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A60E8165AB55A0084C45D /* MapDetailViewController.xib */; };
+		074A60EB165AB55A0084C45D /* MapDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A60E8165AB55A0084C45D /* MapDetailViewController.xib */; };
+		074A60EC165AB55A0084C45D /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A60E9165AB55A0084C45D /* MapViewController.xib */; };
+		074A60ED165AB55A0084C45D /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A60E9165AB55A0084C45D /* MapViewController.xib */; };
 		2106FF5C1642952700418A74 /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106FF5B1642952700418A74 /* recordButton.png */; };
 		214CE7A416423B7800FC3E60 /* Map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 214CE7A316423B7800FC3E60 /* Map-icon.png */; };
 		2156D393163F8AA100786EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D392163F8AA100786EBE /* UIKit.framework */; };
@@ -101,10 +105,8 @@
 		2156D3B9163F8AA200786EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D394163F8AA100786EBE /* Foundation.framework */; };
 		2156D3C1163F8AA200786EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2156D3BF163F8AA200786EBE /* InfoPlist.strings */; };
 		2156D3D7163F917A00786EBE /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2156D3D6163F917A00786EBE /* PageContentViewController.m */; };
-		2156D40D163FA54600786EBE /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2156D40B163FA54600786EBE /* MapViewController.xib */; };
 		2156D416163FAE8800786EBE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2156D414163FAE8800786EBE /* MapViewController.m */; };
 		2156D41B163FAEEC00786EBE /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2156D419163FAEEC00786EBE /* MapDetailViewController.m */; };
-		2156D41C163FAEEC00786EBE /* MapDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2156D41A163FAEEC00786EBE /* MapDetailViewController.xib */; };
 		2156D429163FB57600786EBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2156D428163FB57600786EBE /* MapKit.framework */; };
 		21A2EB1E1656521A003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
 		21A2EB2016565324003BB4CA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2EB1D1656521A003BB4CA /* libOCMock.a */; };
@@ -206,6 +208,8 @@
 		074A60D9165AB4D30084C45D /* POIObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POIObject.m; path = Models/POIObject.m; sourceTree = "<group>"; };
 		074A60DA165AB4D30084C45D /* TrackDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackDetail.h; path = Models/TrackDetail.h; sourceTree = "<group>"; };
 		074A60DB165AB4D30084C45D /* TrackDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackDetail.m; path = Models/TrackDetail.m; sourceTree = "<group>"; };
+		074A60E8165AB55A0084C45D /* MapDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapDetailViewController.xib; path = Views/MapDetailViewController.xib; sourceTree = "<group>"; };
+		074A60E9165AB55A0084C45D /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = Views/MapViewController.xib; sourceTree = "<group>"; };
 		2106FF5B1642952700418A74 /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
 		214CE7A316423B7800FC3E60 /* Map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map-icon.png"; sourceTree = "<group>"; };
 		2156D38E163F8AA100786EBE /* iPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,12 +229,10 @@
 		2156D3C0163F8AA200786EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2156D3D6163F917A00786EBE /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		2156D3D8163F918C00786EBE /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
-		2156D40B163FA54600786EBE /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		2156D413163FAE8800786EBE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		2156D414163FAE8800786EBE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		2156D418163FAEEC00786EBE /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
 		2156D419163FAEEC00786EBE /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
-		2156D41A163FAEEC00786EBE /* MapDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapDetailViewController.xib; sourceTree = "<group>"; };
 		2156D428163FB57600786EBE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		21A2EB171656521A003BB4CA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		21A2EB181656521A003BB4CA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -456,9 +458,9 @@
 		2156D3D5163F8F2600786EBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2156D41A163FAEEC00786EBE /* MapDetailViewController.xib */,
+				074A60E8165AB55A0084C45D /* MapDetailViewController.xib */,
+				074A60E9165AB55A0084C45D /* MapViewController.xib */,
 				2156D3AD163F8AA100786EBE /* MainContentViewController.xib */,
-				2156D40B163FA54600786EBE /* MapViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -670,8 +672,6 @@
 			files = (
 				2156D39D163F8AA100786EBE /* InfoPlist.strings in Resources */,
 				2156D3AF163F8AA100786EBE /* MainContentViewController.xib in Resources */,
-				2156D40D163FA54600786EBE /* MapViewController.xib in Resources */,
-				2156D41C163FAEEC00786EBE /* MapDetailViewController.xib in Resources */,
 				21FCACA6164109D600201DA4 /* location.png in Resources */,
 				21FCACA916410C0400201DA4 /* record.png in Resources */,
 				214CE7A416423B7800FC3E60 /* Map-icon.png in Resources */,
@@ -690,6 +690,8 @@
 				074A6052165AA6050084C45D /* Map-icon.png in Resources */,
 				074A6054165AA6050084C45D /* record.png in Resources */,
 				074A6056165AA6050084C45D /* recordButton.png in Resources */,
+				074A60EA165AB55A0084C45D /* MapDetailViewController.xib in Resources */,
+				074A60EC165AB55A0084C45D /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,6 +711,8 @@
 				074A6053165AA6050084C45D /* Map-icon.png in Resources */,
 				074A6055165AA6050084C45D /* record.png in Resources */,
 				074A6057165AA6050084C45D /* recordButton.png in Resources */,
+				074A60EB165AB55A0084C45D /* MapDetailViewController.xib in Resources */,
+				074A60ED165AB55A0084C45D /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
